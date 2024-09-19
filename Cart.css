@@ -1,0 +1,45 @@
+.cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.cart-container h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#bag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+#bag .icon i{
+    color: white;
+    font-size: 16px;
+    padding: 12px 14px;
+    background-color: blueviolet;
+}
+
+#bag .icon:hover{
+    background-color: #22C55E;
+    transition: 0.5s;
+}
+
+#bag .text a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: rgb(9, 2, 46);
+    padding: 12px 24px;
+}
